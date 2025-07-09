@@ -35,3 +35,14 @@ OBSTACLE_SPAWN_RATE = 60  # frames between obstacle spawns
 # Game settings
 INITIAL_LIVES = 3
 SCORE_INCREMENT = 10
+
+# Game title
+GAME_TITLE = "Obstacle Avoidance Game"
+
+# Player starting position
+PLAYER_START_X = SCREEN_WIDTH // 2 - PLAYER_WIDTH // 2
+PLAYER_START_Y = SCREEN_HEIGHT - PLAYER_HEIGHT - 10
+
+# Obstacle spawn settings
+OBSTACLE_MIN_SPAWN_TIME = 30  # minimum frames between spawns
+OBSTACLE_MAX_SPAWN_TIME = 90  # maximum frames between spawns
